@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <style>
+        @font-face {
+            font-family: 'Comic Neue';
+            src: url('comicfonts/comicneue-regular-webfont.woff') format('woff'),
+            url('comicfonts/comicneue-regular-webfont.woff2') format('woff2');
+        }
+        
+        * {
+            font-family: 'Comic Neue';
+            box-sizing: border-box;
+            font-size: 22px;
+        } 
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('./image1.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: #fff; /* Adjust text color for better visibility on the background */
+            display: flex;
+            flex-direction: column;
+            /*min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            font-size: 35px;
+            opacity: 0.8;
+        }
+        #head1{
+            font-size: 35px;
+        }
+
+        section {
+            flex-grow: 1; /* Allow the section to grow and take remaining space */
+            padding: 2rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            opacity: 0.8;
+            margin-top: auto; /* Push the footer to the bottom */
+        }
+
+        @media (max-width: 600px) {
+            div {
+                padding: 1rem;
+            }
+
+            header {
+                font-size: 30px; /* Adjust font size for smaller screens */
+            }
+
+            footer {
+                font-size: 14px; /* Adjust font size for smaller screens */
+            }
+        }
+
+        a {
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block; /* Ensure link takes up only necessary space */
+            padding: 10px; /* Adjust padding as needed */
+            margin: 10px 0; /* Add vertical spacing between links */
+            background-color: #4CAF50; /* Green background color */
+            border-radius: 5px; /* Add rounded corners */
+        }
+
+        i {
+            margin-right: 5px; /* Adjust margin as needed */
+        }
+
+        .invitation-container {
+            position: relative;
+            z-index: 1;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin-top: auto;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="invitation_container">
+        
+        <header>
+            <h1 id="head1">Wedding Invitation</h1>
+        </header>
+        
+        <div id="ven">
+            <h2>You're Invited!</h2>
+            <p>"Dear Friends, God meets our dreams in remarkable ways, One such dreams in my life is my wedding.. <br> As the dreans turns a reality your presence is highly anticipated <br> to make it an ever lasting memory in our lives.."<br> <br> <br> <strong>Yours <em>CHETHANA & NAGBHUSHAN</em></strong></p>
+            <p>Reception: <strong>February 25, 2024</strong></p>
+            <p>Time: <strong>7:30 PM</strong></p>
+            <p>Muhurtha: <strong>February 26, 2024</strong></p>
+            <p>Time: <strong>8:00 AM</strong></p>
+            <p>Venue: <strong>Sabha Bhavana, Agrahara, Sagara, Karnataka 577401</strong></p></section>
+            <p><strong><a href="https://maps.app.goo.gl/yvJat2WqnV7XiWju5" target="_blank">Open in Maps</a></strong></p>
+        </div>
+        
+        <footer>
+            <p>© By Nagbhushan & Chethana.</p>
+        </footer>
+
+    </div>
+</body>
+<script>
+    // JavaScript to trigger the animation after the page has loaded
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelector('.typewriter-text').style.display = 'block';
+    });
+</script>
+</html>
