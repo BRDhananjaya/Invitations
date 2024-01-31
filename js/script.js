@@ -1,5 +1,5 @@
 /**
- * @author Nagbhushan
+ * @author Dhananjaya
  */
 $(document).ready(function () {
     $('.sakura-falling').sakura();
@@ -8,7 +8,7 @@ $(document).ready(function () {
   
 //$(document).on('click', function(){
 //    document.getElementById("my_audio").play();
-//    console.log('Thappade ellaru Banni');
+//    console.log('Thappade Ellaru Barbeku');
 //});
 
 
@@ -32,7 +32,7 @@ window.addEventListener("blur", function() {
 
 
 // Set the date we're counting down to
-var countDownDate = new Date("Feb 26, 2024 07:45:00").getTime();
+var countDownDate = new Date("Feb 14, 2024 08:45:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -91,19 +91,19 @@ var styles2 = [
     , 'font-size: 32px'
 ].join(';');
 
-console.log('\n\n%c SAVE THE DATE: 26th Feb, 2024!', styles);
+console.log('\n\n%c SAVE THE DATE: 14th Feb, 2024!', styles);
 
-console.log('%cYour presence is requested!%c\n\nRegards: Chethana & Nagbhushan', styles1, styles2);
+console.log('%cYour presence is requested!%c\n\nRegards: LAKSHMAMMA & RAMAKRISHNEGOWDA B R', styles1, styles2);
 
 console.log(
-    `%cThappade ellaru Banni!\n\n`,
+    `%cThappade Ellaru Barbeku!\n\n`,
     'color: yellow; background:tomato; font-size: 24pt; font-weight: bold',
 )
 
 
 
 function openWhatsApp1() {
-    var phoneNumber1 = "9113027128"; // Replace with your phone number
+    var phoneNumber1 = "9945633837"; // Replace with your phone number
     var message1 = "Congratulations on your wedding! Wishing you a lifetime of love and happiness together. Cheers to the newlyweds!"; // Replace with your desired message
     var whatsappLink1 = "https://wa.me/" + phoneNumber1 + "?text=" + encodeURIComponent(message1);
     var fallbackLink1 = "https://web.whatsapp.com/send?phone=" + phoneNumber1 + "&text=" + encodeURIComponent(message1);
@@ -117,7 +117,7 @@ function openWhatsApp1() {
 }
 
 function openWhatsApp2() {
-    var phoneNumber2 = "9380183106"; // Replace with your phone number
+    var phoneNumber2 = "9738200992"; // Replace with your phone number
     var message2 = "Congratulations on your wedding! Wishing you a lifetime of love and happiness together. Cheers to the newlyweds!"; // Replace with your desired message
     var whatsappLink2 = "https://wa.me/" + phoneNumber2 + "?text=" + encodeURIComponent(message2);
     var fallbackLink2 = "https://web.whatsapp.com/send?phone=" + phoneNumber2 + "&text=" + encodeURIComponent(message2);
