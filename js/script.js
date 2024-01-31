@@ -1,5 +1,5 @@
 /**
- * @author Nagbhushan
+ * @author Dhananjaya
  */
 $(document).ready(function () {
     $('.sakura-falling').sakura();
@@ -8,7 +8,7 @@ $(document).ready(function () {
   
 //$(document).on('click', function(){
 //    document.getElementById("my_audio").play();
-//    console.log('Thappade ellaru Banni');
+//    console.log('Thappade Ellaru Barbeku');
 //});
 
 
