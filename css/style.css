@@ -467,7 +467,7 @@ img {
 
 .phonee1, .phonee2{
 	color:#c6cdd2;
-	font-size: 20px;
+	font-size: 35px;
 	padding: 10px;
 }
 
@@ -507,6 +507,7 @@ body {
 .title {
 	margin-bottom: 40px;
 }
+
 
 #time {
 	width: auto;

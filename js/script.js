@@ -6,12 +6,30 @@ $(document).ready(function () {
 });
   
   
+//$(document).on('click', function(){
+//    document.getElementById("my_audio").play();
+//    console.log('Thappade ellaru Banni');
+//});
 
 
-$(document).on('click', function(){
-    document.getElementById("my_audio").play();
-    console.log('Thappade ellaru Banni');
+document.addEventListener("visibilitychange", function() {
+    if (document.visibilityState === 'hidden') {
+        audio.pause();
+    } else {
+        // Optional: Resume playing when the page is visible again
+        audio.play().catch(function(error) {
+            // Handle play error
+            console.error('Failed to resume audio:', error);
+        });
+    }
 });
+
+// Pause audio when the window loses focus
+window.addEventListener("blur", function() {
+    audio.pause();
+});
+
+
 
 // Set the date we're counting down to
 var countDownDate = new Date("Feb 26, 2024 07:45:00").getTime();
