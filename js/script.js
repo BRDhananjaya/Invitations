@@ -105,7 +105,7 @@ console.log(
 function openWhatsApp2() {
     var phoneNumber1 = "9113027128"; // Replace with your phone number
     var message1 = "Congratulations on your wedding! Wishing you a lifetime of love and happiness together. Cheers to the newlyweds!"; // Replace with your desired message
-    var whatsappLink1 = "https://wa.me/" + phoneNumber1 + "?text=" + encodeURIComponent(message1);
+    var whatsappLink1 = "https://wa.me/" + phoneNumber1 + "&text=" + encodeURIComponent(message1);
     var fallbackLink1 = "https://web.whatsapp.com/send?phone=" + phoneNumber1 + "&text=" + encodeURIComponent(message1);
 
     var opened = window.open(whatsappLink1, '_blank');
@@ -119,7 +119,7 @@ function openWhatsApp2() {
 function openWhatsApp2() {
     var phoneNumber2 = "9380183106"; // Replace with your phone number
     var message2 = "Congratulations on your wedding! Wishing you a lifetime of love and happiness together. Cheers to the newlyweds!"; // Replace with your desired message
-    var whatsappLink2 = "https://wa.me/" + phoneNumber2 + "?text=" + encodeURIComponent(message2);
+    var whatsappLink2 = "https://wa.me/" + phoneNumber2 + "&text=" + encodeURIComponent(message2);
     var fallbackLink2 = "https://web.whatsapp.com/send?phone=" + phoneNumber2 + "&text=" + encodeURIComponent(message2);
 
     var opened = window.open(whatsappLink2, '_blank');
