@@ -80,3 +80,20 @@ console.log(
     `%cThappade ellaru Banni!\n\n`,
     'color: yellow; background:tomato; font-size: 24pt; font-weight: bold',
 )
+
+
+function openWhatsApp1() {
+  var phoneNumber = "9113027128"; // Replace with your phone number
+  var message = "Welcome message!, here is the venue https://maps.app.goo.gl/AMjsUQZnUpZmD7sY7"; // Replace with your desired message
+  var whatsappLink = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+  
+  window.open(whatsappLink, '_blank');
+}
+
+function openWhatsApp2() {
+    var phoneNumber = "9380183106"; // Replace with your phone number
+    var message = "Welcome message!, here is the venue https://maps.app.goo.gl/AMjsUQZnUpZmD7sY7"; // Replace with your desired message
+    var whatsappLink = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+    
+    window.open(whatsappLink, '_blank');
+  }
