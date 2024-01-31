@@ -465,13 +465,12 @@ img {
     1px 1px 0 #000;
 }
 
-.phonee1{
+.phonee1, .phonee2{
 	color:#c6cdd2;
+	font-size: 20px;
+	padding: 10px;
 }
 
-.phonee2{
-	color:#d0c6d2;
-}
 
 .wrap {
 	display: -webkit-flex;

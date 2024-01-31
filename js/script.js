@@ -85,29 +85,29 @@ console.log(
 
 
 function openWhatsApp2() {
-    var phoneNumber = "9113027128"; // Replace with your phone number
-    var message = "Congratulations on your wedding! Wishing you a lifetime of love and happiness together. Cheers to the newlyweds!"; // Replace with your desired message
-    var whatsappLink = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
-    var fallbackLink = "https://web.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+    var phoneNumber1 = "9113027128"; // Replace with your phone number
+    var message1 = "Congratulations on your wedding! Wishing you a lifetime of love and happiness together. Cheers to the newlyweds!"; // Replace with your desired message
+    var whatsappLink1 = "https://wa.me/" + phoneNumber1 + "?text=" + encodeURIComponent(message1);
+    var fallbackLink1 = "https://web.whatsapp.com/send?phone=" + phoneNumber1 + "&text=" + encodeURIComponent(message1);
 
-    var opened = window.open(whatsappLink, '_blank');
+    var opened = window.open(whatsappLink1, '_blank');
 
     if (!opened || opened.closed || typeof opened.closed == 'undefined') {
         // WhatsApp link failed, fallback to web version
-        window.open(fallbackLink, '_blank');
+        window.open(fallbackLink1, '_blank');
     }
 }
 
 function openWhatsApp2() {
-    var phoneNumber = "9380183106"; // Replace with your phone number
-    var message = "Congratulations on your wedding! Wishing you a lifetime of love and happiness together. Cheers to the newlyweds!"; // Replace with your desired message
-    var whatsappLink = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
-    var fallbackLink = "https://web.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+    var phoneNumber2 = "9380183106"; // Replace with your phone number
+    var message2 = "Congratulations on your wedding! Wishing you a lifetime of love and happiness together. Cheers to the newlyweds!"; // Replace with your desired message
+    var whatsappLink2 = "https://wa.me/" + phoneNumber2 + "?text=" + encodeURIComponent(message2);
+    var fallbackLink2 = "https://web.whatsapp.com/send?phone=" + phoneNumber2 + "&text=" + encodeURIComponent(message2);
 
-    var opened = window.open(whatsappLink, '_blank');
+    var opened = window.open(whatsappLink2, '_blank');
 
     if (!opened || opened.closed || typeof opened.closed == 'undefined') {
         // WhatsApp link failed, fallback to web version
-        window.open(fallbackLink, '_blank');
+        window.open(fallbackLink2, '_blank');
     }
 }
