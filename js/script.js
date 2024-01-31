@@ -1,10 +1,11 @@
 /**
  * @author Nagbhushan
  */
-(function ($) {
-    "use strict";
-      $('.sakura-falling').sakura();
-})(jQuery);
+$(document).ready(function () {
+    $('.sakura-falling').sakura();
+});
+  
+  
 
 
 $(document).on('click', function(){
@@ -85,25 +86,25 @@ console.log(
 function openWhatsApp1() {
   var phoneNumber = "9113027128"; // Replace with your phone number
   var message = "Congratulations on your wedding! Wishing you a lifetime of love and happiness together. Cheers to the newlyweds!"; // Replace with your desired message
-  var whatsappLink = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+  var whatsappLink = "https://web.whatsapp.com/" + phoneNumber + "?text=" + encodeURIComponent(message);
   var fallbackLink = "https://web.whatsapp.com/" + phoneNumber + "?text=" + encodeURIComponent(message);
 
   if (window.open(whatsappLink, '_blank')) {
     // WhatsApp link opened successfully
   } else {
-    window.location.href = fallbackLink;
+    window.open(fallbackLink, '_blank');
   }
 }
 
 function openWhatsApp2() {
     var phoneNumber = "9380183106"; // Replace with your phone number
     var message = "Congratulations on your wedding! Wishing you a lifetime of love and happiness together. Cheers to the newlyweds!"; // Replace with your desired message
-    var whatsappLink = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
+    var whatsappLink = "https://web.whatsapp.com/" + phoneNumber + "?text=" + encodeURIComponent(message);
     var fallbackLink = "https://web.whatsapp.com/" + phoneNumber + "?text=" + encodeURIComponent(message);
 
     if (window.open(whatsappLink, '_blank')) {
         // WhatsApp link opened successfully
       } else {
-        window.location.href = fallbackLink;
+        window.open(fallbackLink, '_blank');
       }
   }
